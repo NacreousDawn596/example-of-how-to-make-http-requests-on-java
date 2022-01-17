@@ -8,15 +8,15 @@ public class main {
         
         BufferedReader in = new BufferedReader(new InputStreamReader(rq.getInputStream()));
         
-        String inputLine;
+        String result;
         
-        while ((inputLine = in.readLine()) != null){
+        while ((result = in.readLine()) != null){
         
             break;
             
         }
         
-        return inputLine.split(":\"")[1].split("\"}")[0];
+        return result;
         
     }
     
