@@ -20,11 +20,17 @@ public class main {
         
     }
     
+    public static void print(Object text) throws Exception {
+        
+        System.out.println(text);
+        
+    }
+    
     public static void main(String args[]) throws Exception {
     
         request_content = request("http://usefull-api.herokuapp.com/joke/"); // just to test ;-;
         
-        System.out.println(request_content);
+        print(request_content);
         
     }
     
